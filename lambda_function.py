@@ -6,7 +6,7 @@ from PIL import Image
 
 s3 = boto3.client('s3')
 DEST_BUCKET = os.environ['DEST_BUCKET']
-SIZE = 128, 128
+SIZE = 150, 150
 
 
 def lambda_handler(event, context):
